@@ -29,7 +29,7 @@ function  auth(path) {
 function logout() {
     delete localStorage.user;
     localStorage.clear();
-    window.location.href = "./index.html";
+    window.location.href = "./index.php";
 }
 
 
