@@ -28,6 +28,7 @@ Abrir CMD o Terminal
 <br>
 **'Para crear la migracion de datos, primero debe ir a la carpeta:
  Infrastructura/Context y dentro de ella buscar `optionsBuilder.UseSqlServer(@"Data Source=142.93.117.217;Initial Catalog=prueba;persist security info=True;user id=sa;password=4015594Wae");`'**
+ <br>
 Carbiar por los datos del servidor (SQL SERVER)
 <br>
 
