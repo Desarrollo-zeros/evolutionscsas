@@ -90,6 +90,8 @@ Carbiar por los datos del servidor (SQL SERVER)
 <h3>6. Prender el servidor en la ruta back-end/Api: </h3>
 <br>
 **Comando:**
+
+
 `dotnet run`
 
 
