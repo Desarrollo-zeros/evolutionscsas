@@ -44,6 +44,8 @@ Carbiar por los datos del servidor (SQL SERVER)
 <h3>5. Modificar la URL en Api/Properties/launchSettings.json: </h3>
 <br>
 ```json
+[
+
 {
    "$schema": "http://json.schemastore.org/launchsettings.json",
    "iisSettings": {
@@ -74,6 +76,7 @@ Carbiar por los datos del servidor (SQL SERVER)
      }
    }
  }
+ ]
 ```
 <h3>6. Prender el servidor en la ruta back-end/Api: </h3>
 <br>
