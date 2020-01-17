@@ -54,41 +54,8 @@ Carbiar por los datos del servidor (SQL SERVER)
 <br>
 
 ```json
-[
-{
-<<<<<<< HEAD
-   "$schema": "http://json.schemastore.org/launchsettings.json",
-   "iisSettings": {
-     "windowsAuthentication": false,
-     "anonymousAuthentication": true,
-     "iisExpress": {
-       "applicationUrl": "http://142.93.117.217:50988",
-       "sslPort": 44344
-     }
-   },
-   "profiles": {
-     "IIS Express": {
-       "commandName": "IISExpress",
-       "launchBrowser": true,
-       "launchUrl": "",
-       "environmentVariables": {
-         "ASPNETCORE_ENVIRONMENT": "Development"
-       }
-     },
-     "Api": {
-       "commandName": "Project",
-       "launchBrowser": true,
-       "launchUrl": "",
-       "applicationUrl": "https://142.93.117.217:5001;http://142.93.117.217:5000",
-       "environmentVariables": {
-         "ASPNETCORE_ENVIRONMENT": "Development"
-       }
-     }
-   }
- }
-]
-=======
-  "$schema": "http://json.schemastore.org/launchsettings.json",
+
+{  "$schema": "http://json.schemastore.org/launchsettings.json",
   "iisSettings": {
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
@@ -118,7 +85,6 @@ Carbiar por los datos del servidor (SQL SERVER)
   }
 }
 
->>>>>>> be9104ae3fdcaa528c99d5339c52b33352008e6e
 ```
 
 <h3>6. Prender el servidor en la ruta back-end/Api: </h3>
@@ -147,5 +113,5 @@ Usuarios de prueba:
 ]
 ```
 
-![alt text](142.93.117.217/map.PNG)
+![alt text](http://142.93.117.217/map.PNG)
 
