@@ -115,3 +115,10 @@ Usuarios de prueba:
 
 ![alt text](http://142.93.117.217/map.PNG)
 
+<br>
+
+![alt text](http://142.93.117.217/usuario.PNG)
+
+<br>
+
+![alt text](http://142.93.117.217/fin.PNG)
