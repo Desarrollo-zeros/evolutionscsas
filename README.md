@@ -11,6 +11,7 @@ realizar configuraciones necesarias de apache
 <h3>2. Clonar Repositorio: </h3>
 <br>
 **Comando:**
+
 `git clone https://github.com/Desarrollo-zeros/evolutionscsas`
 
 
@@ -46,8 +47,12 @@ Carbiar por los datos del servidor (SQL SERVER)
 
 <h3>4. Modificar la URL en Api/Program: </h3>
 <br>
-`webBuilder.UseStartup<Startup>()
-                        .UseUrls("http://142.93.117.217:44344");`
+
+```
+webBuilder.UseStartup<Startup>().UseUrls("http://142.93.117.217:44344");
+
+```
+
 <br>
 
 <h3>5. Modificar la URL en Api/Properties/launchSettings.json: </h3>
