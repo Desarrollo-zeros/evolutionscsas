@@ -2,7 +2,7 @@
 
 
 
-<h3>1. Prender el servidor en la ruta back-end/Api: </h3>
+<h3>1 Buscar la ruta de instalación: </h3>
 <br>
 en windows instalar xmapp y abrir terminal htdocs
 en linux colocar carpeta en /var/www/html 
@@ -43,7 +43,8 @@ Carbiar por los datos del servidor (SQL SERVER)
 
 <h3>5. Modificar la URL en Api/Properties/launchSettings.json: </h3>
 <br>
-```json{
+```json
+{
    "$schema": "http://json.schemastore.org/launchsettings.json",
    "iisSettings": {
      "windowsAuthentication": false,
@@ -80,3 +81,22 @@ Carbiar por los datos del servidor (SQL SERVER)
 `dotnet run`
 
 
+<h1>Servidor Online</h1>
+
+http://142.93.117.217
+
+Usuarios de prueba:
+
+```json
+[
+
+{
+  "username" : "zeros",
+  "password" : "toor"
+},
+{
+  "username" : "test",
+  "password" : "test"
+}
+]
+```
