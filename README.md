@@ -22,16 +22,25 @@ Abrir CMD o Terminal
 <br>
 **Comando:**
 <br>
-`cd Api`  //ir a la carpeta
+
+
+`cd Api`
+
 <br>
-`dotnet restore` //para recuperar las dependencias
+//restaurar paquetes
+
+
+
+`dotnet restore`
+
 <br>
 **'Para crear la migracion de datos, primero debe ir a la carpeta:
  Infrastructura/Context y dentro de ella buscar `optionsBuilder.UseSqlServer(@"Data Source=142.93.117.217;Initial Catalog=prueba;persist security info=True;user id=sa;password=4015594Wae");`'**
 Carbiar por los datos del servidor (SQL SERVER)
 <br> <br>
+//migrar a la base de datos
 
-`dotnet ef database update` //migrar a la base de datos
+`dotnet ef database update` 
 
 
 
