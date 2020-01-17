@@ -554,13 +554,12 @@ require([
                 returnGeometry: true,
                 outFields: ["*"]
             }).then(function (results) {
-                document.getElementById("loading").style = "display: block";
-                setTimeout(function(){ document.getElementById("loading").style = "display: none"; }, 5000);
+				console.log(results.features);
                 mapView.extent = results.features[0].geometry.extent;
                 verPopup.location = mapView.center.clone();
-                response.features[0].popupTemplate = new PopupTemplate(verPopup);
-                mapView.popup.features = [response.features[0]];
-                console.log(response.features);
+                results.features[0].popupTemplate = new PopupTemplate(verPopup);
+                mapView.popup.features = [results.features[0]];
+                
                 mapView.popup.visible = true;
             });
         };
