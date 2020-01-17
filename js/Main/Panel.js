@@ -560,6 +560,7 @@ require([
                 verPopup.location = mapView.center.clone();
                 response.features[0].popupTemplate = new PopupTemplate(verPopup);
                 mapView.popup.features = [response.features[0]];
+                console.log(response.features);
                 mapView.popup.visible = true;
             });
         };

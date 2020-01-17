@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bccc3ca-ebd4-4e25-b366-2684204451aa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/Main/Panel.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Main/Panel.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +81,7 @@
       <workItem from="1579021001464" duration="25831000" />
       <workItem from="1579056293294" duration="8339000" />
       <workItem from="1579094804314" duration="37887000" />
-      <workItem from="1579140938870" duration="43884000" />
+      <workItem from="1579140938870" duration="44205000" />
     </task>
     <servers />
   </component>
