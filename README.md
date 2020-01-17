@@ -121,4 +121,4 @@ Usuarios de prueba:
 
 <br>
 
-![alt text](http://142.93.117.217/fin.PNG)
+![alt text](http://142.93.117.217/find.PNG)
